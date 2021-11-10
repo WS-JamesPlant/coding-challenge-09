@@ -87,7 +87,7 @@ class Scrabble
      * @param array $position An X, Y position
      * @param array $list     The list of positions to check
      * 
-     * @return void
+     * @return bool
      */
     private static function _positionInList($position, $list)
     {
